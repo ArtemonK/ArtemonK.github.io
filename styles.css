@@ -1,0 +1,132 @@
+body{
+    background: rgba(192, 192, 192, 0.543);
+    color: rgb(93, 92, 92);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 1px;
+    background: url(water.jpg) no-repeat right;
+    background-color: #008cbd;
+    text-indent: 2em;
+    color: azure;
+    background-size: 100% 100%;
+}
+
+nav{
+    font-weight: bold;
+    float: right;
+    width: 200px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    font-size: 120%;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    border: 1px solid white;
+}
+nav a:link{
+    background-color: #008cbd;
+    color: white;
+}
+nav a:visited{
+    background-color: #008cbd;
+    color: blue;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 2s linear;
+}
+h2{
+    color: #008cbd;
+}
+#listIcon{
+    color: #759c00;
+    list-style-image: url(icon.png);
+}
+caption{
+    font-size: 16pt;
+    font-weight: bold;
+    color: #008cbd;
+}
+table{
+    margin-top: 10px;
+    margin-left: 190px;
+    border-collapse: collapse;
+}
+th{
+    background:#008bbd60;
+    padding: 1em;
+    
+}
+td{
+    padding: 0.5em;
+    text-align: center;
+}
+input{
+    float: left;
+    margin-left: 50px;
+    width: 180px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+select{
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    margin-left: 200px;
+}
+form h2{
+    text-align: center;
+}
+form{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 600px;
+    height: 320px;
+    border: 2px solid #008bbd4c;
+    background: #008bbd4c;
+}
+.project{
+    color: green;
+    text-align: left;
+}
+footer{
+    font-size: 60%;
+    font-style: italic;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+main{
+    margin-left: 10px;
+}
+#plumber{
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+    background: url(plumber.jpg);
+    height: 100px;
+    width: 80px;
+    background-size: 100% 100%;
+}
+#pipes{
+    background: url(pipes.jpg);
+    height: 360px;
+    width: 640px;
+    background-size: 100% 100%;
+}
+
+#wrapper{
+    box-shadow: 3px 3px 30px 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-image: linear-gradient(to bottom, white, rgba(191, 223, 243, 0.443));
+}

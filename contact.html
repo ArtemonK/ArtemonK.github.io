@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Plumbing company</title>
+</head>
+<body>
+    <div id="wrapper">
+
+        <header>
+            <h1>24/7 Plumbing Service</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <h2>SCHEDULE NOW</h2>
+
+                <input type="text" id="firstName" name="firstName" placeholder="First name:" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Last name:" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone:" required>
+                <input type="email" id="*email" name="email" placeholder="E-mail:" required>
+                <input type="date" id="date" name="date" required>
+
+                <select size="1" name="services" id="services">
+                    <option>Select wich service you need</option>
+                    <option value="garbageDisposal">Garbage Disposal</option>
+                    <option value="kitchenFaucet">Kitchen Faucet</option>
+                    <option value="toilet">Toilet</option>
+                    <option value="sink">Sink</option>
+                    <option value="gasLine">Gas Line</option>
+                    <option value="waterHeater">Water Heater</option>
+                    <option value="bathtub">Bathtub</option>
+                    <option value="mainWaterLine">Main Water Line</option>
+                    <option value="shower">Shower</option>
+                </select>
+            
+                <textarea name="comments" id="comments" cols="25" rows="10" placeholder="your comments here"></textarea>
+
+                <input type="submit" id="submit" name="submit">
+            </form>
+        </main>
+
+        <footer>
+                Copyright &copy; 2022 Plumbing Company<br>
+                <a href="mailto:plumbing@gmail.com">plumbing@gmail.com</a>
+        </footer>
+    </div>
+</body>
+</html>
